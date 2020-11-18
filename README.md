@@ -12,6 +12,7 @@ OLED's SCK goes to D1-GPIO5 and SDA to D2-GPIO4
 Upload the code
 Enjoy!
 
-Based on code examples from:
-https://randomnerdtutorials.com/esp32-esp8266-dht-temperature-and-humidity-oled-display/
+Based on code examples from:<br>
+https://randomnerdtutorials.com/esp32-esp8266-dht-temperature-and-humidity-oled-display/<br>
+and<br>
 https://community.mydevices.com/t/esp8266-12e-arduino-dht22-bmp180-cayenne/6403
