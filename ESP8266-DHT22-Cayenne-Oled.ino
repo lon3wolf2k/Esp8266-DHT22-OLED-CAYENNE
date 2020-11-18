@@ -8,7 +8,12 @@
 #include <Adafruit_SSD1306.h>
 
 #define DHTPIN 14 // DHT22 Datapin to D5-GPIO14
+
+// Uncomment the type of sensor in use:
+//#define DHTTYPE DHT11 // DHT 11
+//#define DHTTYPE DHT21 // DHT 21 (AM2301)
 #define DHTTYPE DHT22
+
 #define SCREEN_WIDTH 128 // OLED display width, in pixels
 #define SCREEN_HEIGHT 64 // OLED display height, in pixels
 // Declaration for an SSD1306 display connected to I2C (SDA, SCL pins)
@@ -16,7 +21,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
 // WiFi network info.
 char ssid[] = "yourssid"; 
-char wifiPassword[] = "wifipassword";
+char wifiPassword[] = "yourwifipassword";
 
 // Cayenne authentication info. This should be obtained from the Cayenne Dashboard.
 char username[] = ""; 
