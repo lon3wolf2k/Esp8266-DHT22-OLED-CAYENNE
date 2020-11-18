@@ -2,7 +2,7 @@
 </h4>
 <p>#What you will need:</p>
 <p>1. Esp8266/Nodemcu microcontroller</p>
-<p>2. 0.91'' Oled screen</p>
+<p>2. 0.96'' Oled screen</p>
 <p>3. DHT22 sensor (DHT11 and DHT21 should work also, you just need to define your model on the code)</p>
 <p>#Instructions<br>
   Login to https://cayenne.mydevices.com/ and add new device Generic ESP8266<br>
