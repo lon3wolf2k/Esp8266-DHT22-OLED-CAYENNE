@@ -1,16 +1,16 @@
 Esp8266 with DHT22 / AM2302 Digital Temperature and Humidity Sensor displaying data to 0.96 inch oled and Cayenne MyDevices
 
-#Instructions
-Login to https://cayenne.mydevices.com/ and add new device ESP8266
-Copy MQTT Username, Pass and Client-Id
-Enter all the above in the sketch plus your wifi credentials
-Make sure you have all the necessary libraries installed.
+#Instructions<br>
+Login to https://cayenne.mydevices.com/ and add new device ESP8266<br>
+Copy MQTT Username, Pass and Client-Id<br>
+Enter all the above in the sketch plus your wifi credentials<br>
+Make sure you have all the necessary libraries installed.<br>
 
-Connect DHT22 data to D5-GPIO14 VCC to 3.3v and GND to GND
-OLED's SCK goes to D1-GPIO5 and SDA to D2-GPIO4
-
-Upload the code
-Enjoy!
+Connect DHT22 data to D5-GPIO14 VCC to 3.3v and GND to GND<br>
+OLED's SCK goes to D1-GPIO5 and SDA to D2-GPIO4<br>
+<br>
+Upload the code<br>
+Enjoy!<br>
 
 Based on code examples from:<br>
 https://randomnerdtutorials.com/esp32-esp8266-dht-temperature-and-humidity-oled-display/<br>
